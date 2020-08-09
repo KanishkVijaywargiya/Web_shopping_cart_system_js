@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "developed for a sector 6 client parwanoo",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "BlaceNova Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "contentful": "^7.14.6",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.10"
+  }
+}
